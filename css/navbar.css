@@ -1,0 +1,39 @@
+#navbar{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+}
+#nav-btn{
+    border-radius: 30rem;
+    width: 90%;
+    background-color: tomato;
+    border-color: transparent;
+    color: white;
+}
+#nav-btn:focus{
+    outline-width: 0;
+}
+.filter-container{
+    border: black 2px;
+}
+.filter-input{
+    border: none;
+    height: 30px;
+    width: 40%;
+    border-radius: 0.7rem;
+    box-shadow: 1px 2px 1px gray;
+}
+.filter-input:focus {
+    outline-width: 0;
+}
+.search-button{
+    box-shadow: 2px 2px 0 gray;
+    border-radius: 30rem;
+    width: 20%;
+    background-color:tomato;
+    border-color: transparent;
+    color: white;
+}
+.search-button:focus{
+    outline-width: 0;
+}

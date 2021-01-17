@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="shortcut icon" type="imagem/x-icon" href="images/logo.png" />
+    <script src="https://kit.fontawesome.com/aefa4e46e6.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDvmL-AWvUAu10pdbOE4cNy0xGLvpQL9RY&callback=initMap"
+    type="text/javascript"></script>
+    <!--<script src="js/mascara.min.js"></script>-->
+    <title>Estadias</title>
+</head>
+
+<body>
+    <div class="container-flex">
+        <div id="navbar">
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="filter-container">
+                        <input id="filter" class="filter-input" placeholder="Ex: casa"></input>
+                        <!--<input type="date" id="in-input" min="17/01/2021"/>
+                        <input type="date" id="out-input" min="17/01/2021"/>-->
+                        <button id='search-button' class="search-button"><i class="fas fa-search"></i>  Buscar</button> 
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <button id="nav-btn" type="button">Experiências</button>
+                </div>
+                <div class="col-md-2">
+                    <button id="nav-btn" type="button">Seja um anfitrião</button>
+                </div>
+                <div class="col-md-2">
+                    <button id="nav-btn" type="button">Ajuda</button>
+                </div>
+                <div class="col-md-1">
+                    <button id="nav-btn" type="button">Login</button>
+                </div>
+            </div>
+        </div>           
+        
+        <div class="card-wrapper">
+            <div class="card-container"></div>
+        </div>
+        
+        <div class="row">
+            <div class="pagination-wrapper">
+                <div class="pagination"></div>
+            </div>
+            <div class="col-md-2">
+                <a href="index.html"><button type="button" id="back-btn">Voltar</button></a>
+            </div>
+        </div>
+
+        <div id="map"></div>
+
+    </div>
+</body>
+</html>

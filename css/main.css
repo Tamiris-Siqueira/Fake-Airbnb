@@ -1,0 +1,92 @@
+body{
+    font-family: sans-serif;
+}
+.covid{
+    background-color: black;
+    height: 55px;
+    font-size: 0.9rem;
+    text-align: center;
+    padding-top: 1%;
+}
+.call{
+    height: 80vh;
+    /*https://br.freepik.com/vetores-gratis/casal-no-acampamento-com-tenda-e-fogueira-a-noite_7741551.htm*/
+    background-image: url("../images/couple.jpg");
+    background-size: cover;
+}
+#btn-call{
+    border-radius: 10px;
+    font-size: 1rem;
+    color: #151515;
+}
+#text-call{
+    font-size: 3rem;
+    padding-top: 70%;
+}
+.local-img{
+    width: 65px;
+    border-radius: 10%;
+}
+.locals{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.text-ideas{
+    margin-bottom: 12%;
+    font-size: 1.1rem;
+}
+.ideas-img{
+    width: 100%;
+}
+.discover{
+    padding-top: 3%;
+    background-color: black;
+    padding-bottom: 3%;
+    margin-bottom: 3%;
+}
+.discover-img, .joyus-img{
+    width: 100%;
+}
+.text-joyus{
+    font-size: 1.1rem;
+    margin-bottom: 10%;
+}
+.footer{
+    background-color: #F2F2F2;
+    padding-top: 3%;
+}
+h6{
+    font-size: 0.75rem;
+}
+.text-footer{
+    font-weight: lighter;
+}
+hr{
+    margin-bottom: 0;
+}
+#end{
+    display: block;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.pad{
+    padding-left: 9%;
+}
+.locals, .ideas, .discover, #end, .call, .footer, .joyus{
+    padding-right: 5%;
+    padding-left: 5%;
+}
+#text-covid, #text-call, .discover{
+    color: white;
+}
+.city, #text-call, #title-ideas, .text-ideas, #title-discover, .sub-discover, #title-joyus, .text-joyus, h6, #btn-call{
+    font-weight: bold;
+}
+.text-discover, .text-footer{
+    font-size: 0.9rem;
+}
+.discover-img, .joyus-img, .ideas-img{
+    border-radius: 3%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}

@@ -1,0 +1,83 @@
+body{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.card-container{
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 7%;
+}
+#nav-btn{
+    box-shadow: 2px 2px 0 gray;
+}
+.card {
+    width: 20%;
+    min-width: 20%;
+    margin: 1rem;
+    cursor: pointer;
+    padding-top: 2%;
+    border: none;
+}
+.card-img {
+    width: 100%;
+    height: 70%;
+    border-radius: 12px;
+} 
+.card-info {
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+    height: 30%;
+} 
+.property-price {
+    padding-bottom: 5%;
+    font-weight: bold;
+}
+.property-name, .property-type{
+    padding-bottom: 1%;
+}
+.property-name{
+    text-decoration: underline;
+}
+.pagination-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+}
+.pagination span{
+    border-radius: 30rem;
+    cursor: pointer;
+    padding: 8px 16px;
+    float: left;
+    box-shadow: 0px 2px 0 gray;
+}
+.pagination span.active{
+    background-color: white;
+    border-width: 2px;
+    border-color: black;
+}
+.pagination span:hover:not(.active) {
+    background-color: #ddd;
+}
+.page-changer, #back-btn{
+    background-color: tomato;
+    color: white;
+}
+#back-btn{
+    width: 60%;
+    font-size: 1.5rem;
+    border-radius: 8rem;
+    border: none;
+    box-shadow: 2px 2px 0 gray;
+    margin-bottom: 15px;
+}
+#back-btn:focus {
+    outline-width: 0;
+}
+#map{
+    width: 90vw;
+    height: 500px;
+    margin-bottom: 3%;
+}
